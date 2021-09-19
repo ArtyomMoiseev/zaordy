@@ -25,30 +25,30 @@
 
 }
 
-.name-container label{
+.name-container label {
     width: 25%;
     flex-grow: 1;
 }
 
-.data-container label{
+.data-container label {
     width: 20%;
     flex-grow: 2;
 }
 
-.input-container input{
+.input-container input {
     width: 100%;
     flex-grow: 4;
     padding-right: 5px;
 }
 
-.input-container textarea{
+.input-container textarea {
     resize: vertical;
     width: 100%;
     flex-grow: 6;
 }
 
 
-.main{
+.main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,5 +61,14 @@
         display: flex;
         flex-direction: column;
         justify-content: stretch;
+    }
+
+    .container label {
+        width: 40%;
+        flex-grow: 2;
+    }
+
+    button {
+        width: 40%;
     }
 }
