@@ -55,6 +55,11 @@
     align-items: center;
 }
 
+.invalid-input{
+    border-block-width: 3px;
+    border-color: red;
+}
+
 
 @media screen and (max-width: 900px) {
     .name-container {
