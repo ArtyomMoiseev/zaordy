@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    padding-bottom: 5px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+
+}
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.name-container label {
+    width: 25%;
+    flex-grow: 1;
+}
+
+.data-container label {
+    width: 20%;
+    flex-grow: 2;
+}
+
+.input-container input {
+    width: 100%;
+    flex-grow: 4;
+    padding-right: 5px;
+}
+
+.input-container textarea {
+    resize: vertical;
+    width: 100%;
+    flex-grow: 6;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.invalid-input{
+    border-block-width: 3px;
+    border-color: red;
+}
+
+
+@media screen and (max-width: 900px) {
+    .name-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+    }
+
+    .container label {
+        width: 40%;
+        flex-grow: 2;
+    }
+
+    button {
+        width: 40%;
+    }
+}

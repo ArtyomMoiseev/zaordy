@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>web20</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+<div class="main">
+    <select>
+        <option>en</option>
+        <option>ru</option>
+        <option>ar</option>
+    </select>
+
+
+    <h1>Form title</h1>
+
+    <form>
+        <div class="container">
+            <div class="name-container">
+                <div class="input-container">
+                    <label for="first-name">first name*:</label>
+                    <input id="first-name">
+                </div>
+
+                <div class="input-container">
+                    <label for="last-name">last name*:</label>
+                    <input id="last-name">
+                </div>
+            </div>
+
+            <div class="data-container">
+                <div class="input-container">
+                    <label for="email">email*:</label>
+                    <input id="email">
+                </div>
+
+                <div class="input-container">
+                    <label for="company" class="left-align">company:</label>
+                    <input id="company">
+                </div>
+
+                <div class="input-container">
+                    <label for="city" class="left-align">city*:</label>
+                    <input id="city">
+                </div>
+
+                <div class="input-container">
+                    <label for="message" class="left-align">message*:</label>
+                    <textarea id="message"></textarea>
+                </div>
+
+            </div>
+        </div>
+    </form>
+    <button id="bt" onclick="saveFile()">send</button>
+</div>
+
+</body>
+
+</html>
