@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
-    <title>web10</title>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <title>web20</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style2.css'>
 </head>
+
 <body>
 <div class="main">
     <select>
@@ -12,72 +14,51 @@
         <option>ru</option>
         <option>ar</option>
     </select>
- 
+
+
     <h1>Form title</h1>
-    <div class="container">
-        <form class="name-form">
-            <li>
-                <div>
+
+    <form>
+        <div class="container">
+            <div class="name-container">
+                <div class="input-container">
                     <label for="first-name">first name*:</label>
-                </div>
-                <div>
                     <input id="first-name">
                 </div>
-            </li>
-            <li>
-                <div>
+
+                <div class="input-container">
                     <label for="last-name">last name*:</label>
-                </div>
-                <div>
                     <input id="last-name">
                 </div>
-            </li>
-        </form>
- 
-        <form class="description-form">
- 
-            <li>
-                <div class="left-align">
+            </div>
+
+            <div class="data-container">
+                <div class="input-container">
                     <label for="email">email*:</label>
-                </div>
-                <div class="right-align">
                     <input id="email">
                 </div>
-            </li>
- 
-            <li>
-                <div class="left-align">
+
+                <div class="input-container">
                     <label for="company" class="left-align">company:</label>
-                </div>
-                <div class="right-align">
                     <input id="company">
                 </div>
- 
-            </li>
- 
-            <li>
-                <div class="left-align">
+
+                <div class="input-container">
                     <label for="city" class="left-align">city*:</label>
-                </div>
-                <div class="right-align">
                     <input id="city">
                 </div>
- 
-            </li>
- 
-            <li>
-                <div class="left-align">
+
+                <div class="input-container">
                     <label for="message" class="left-align">message*:</label>
-                </div>
-                <div class="right-align">
                     <textarea id="message"></textarea>
                 </div>
- 
-            </li>
- 
-        </form>
-    </div>
-    <button>send</button>
+
+            </div>
+        </div>
+    </form>
+    <button>Send</button>
 </div>
+
 </body>
+
 </html>
